@@ -34,10 +34,9 @@ The SHT3X sensor is a popular choice for measuring temperature and humidity in v
 
 **Examples**
 
-cCopy code
-
+```
 #include "sht3x.h" // Initialize the SHT3X sensor SHT3X\_Init(); // Configure the measurement mode and accuracy settings SHT3X\_SetMeasurementMode(SHT3X\_MODE\_HIGH, SHT3X\_ACCURACY\_HIGH); // Read temperature and humidity values float temperature = SHT3X\_ReadTemperature(); float humidity = SHT3X\_ReadHumidity(); // Calculate the dew point float dewPoint = SHT3X\_CalculateDewPoint(temperature, humidity); // Handle errors or status flags if (SHT3X\_GetStatus() != SHT3X\_STATUS\_OK) { // Handle error condition } // Additional functionalities... 
-
+```
 **Contribution**
 
 Contributions to the SHT3X Temperature-Humidity Sensor Library are welcome. If you encounter any issues or have suggestions for improvements, please feel free to submit an issue or pull request on the GitHub repository.
@@ -57,5 +56,5 @@ We would like to express our gratitude to the authors and contributors of these 
 
 **Contact**
 
-For any inquiries or further information, please contact <projectemail@example.com>.
+For any inquiries or further information, please contact <phamnamhien@gmail.com>.
 
