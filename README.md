@@ -19,7 +19,7 @@ A portable C library for Sensirion SHT3x humidity and temperature sensors, suppo
 ```
 sht3x/
 ├── sht3x.h           # Main header file
-├── sht3x.c           # Implementation
+└── sht3x.c           # Implementation
 ```
 
 ## Quick Start
@@ -261,13 +261,14 @@ STM32F103_SHT3x/
 ├── Core/
 │   ├── Inc/
 │   │   ├── main.h
-│   │   ├── sht3x.h           # SHT3x library header
 │   │   └── stm32f1xx_hal_conf.h
-│   └── Src/
-│       ├── main.c            # Main application with SHT3x integration
-│       ├── sht3x.c           # SHT3x library implementation
-│       ├── stm32f1xx_hal_msp.c
-│       └── stm32f1xx_it.c
+│   ├── Src/
+│   │   ├── main.c            # Main application with SHT3x integration
+│   │   ├── stm32f1xx_hal_msp.c
+│   │   └── stm32f1xx_it.c
+│   └── SHT3X/
+│       ├── sht3x.h           # SHT3x library header
+│       └── sht3x.c           # SHT3x library implementation
 ├── Drivers/
 │   ├── STM32F1xx_HAL_Driver/
 │   └── CMSIS/
@@ -277,8 +278,8 @@ STM32F103_SHT3x/
 #### Compilation Notes
 
 1. **Add source files** to your STM32CubeIDE project:
-   - `sht3x.c` in Src folder
-   - `sht3x.h` in Inc folder
+   - `sht3x.c` in SHT3X folder
+   - `sht3x.h` in SHT3X folder
 
 2. **Compiler settings:**
    - C standard: C11 or C99
