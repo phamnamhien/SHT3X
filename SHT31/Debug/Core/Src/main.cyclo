@@ -1,0 +1,8 @@
+../Core/Src/main.c:69:5:_write	1
+../Core/Src/main.c:80:5:main	24
+../Core/Src/main.c:276:6:SystemClock_Config	3
+../Core/Src/main.c:316:1:stm32f103_i2c_write	5
+../Core/Src/main.c:337:1:stm32f103_i2c_read	5
+../Core/Src/main.c:362:1:stm32f103_delay	1
+../Core/Src/main.c:375:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:393:6:Error_Handler	1
