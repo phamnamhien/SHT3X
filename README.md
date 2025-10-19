@@ -19,7 +19,7 @@ A portable C library for Sensirion SHT3x humidity and temperature sensors, suppo
 ```
 sht3x/
 ├── sht3x.h           # Main header file
-├── sht3x.c           # Implementation
+└── sht3x.c           # Implementation
 ```
 
 ## Quick Start
