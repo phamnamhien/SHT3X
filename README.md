@@ -1,3 +1,9 @@
+## Support This Project
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q1JW4XS)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/phamnamhien)
+
+
 # SHT3x Library
 
 A portable C library for Sensirion SHT3x humidity and temperature sensors, supporting all microcontroller platforms through function pointers.
@@ -865,12 +871,6 @@ For issues and questions:
 
 ## References
 - [SHT3x Datasheet](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/digital-humidity-sensors-for-various-applications/)
-
-## Support This Project
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q1JW4XS)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/phamnamhien)
-
 ---
 
 If this library helped your project, consider giving it a ⭐ on GitHub!
